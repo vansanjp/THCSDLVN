@@ -1,16 +1,15 @@
 package insertdataframe;
 
-import javax.swing.JButton;
-import javax.swing.JLabel;
-import javax.swing.JTextField;	
+import javax.swing.JPanel;
+import javax.swing.JTabbedPane;
 
 public interface InsertDataFrameInterface {
-	public JButton buttonOk = new JButton("OK");
-	public JLabel labelFrameName = new JLabel("INSERT DATA");
-	public JLabel labelTableName = new JLabel("Table Name");
-	public JLabel labelListValues = new JLabel("List Values");
-	public JLabel labelDiagram = new JLabel("DIAGRAM");
-	public JLabel labelHelp = new JLabel("HELP");
-	public JTextField tableNameTextField = new JTextField();
-	public JTextField listValuesTextField = new JTextField();
+	public JPanel panelRestaurant = new JPanel();
+	public JPanel panelAccount = new JPanel();
+	public JPanel panelMenu = new JPanel();
+	public JPanel panelProvide = new JPanel();
+	public JPanel panelReservations = new JPanel();
+	public JPanel panelFoodShip = new JPanel();
+
+	public JTabbedPane tabbedPane = new JTabbedPane();
 }
